@@ -172,7 +172,7 @@ export default function Model() {
   return (
     <group>
       {meshes}
-      {/* <Images /> */}
+      {/* <Image /> */}
       <mesh>
         <planeGeometry args={[device.width, device.height, 1, 1]} />
         <shaderMaterial
