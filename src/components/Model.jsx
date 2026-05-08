@@ -86,7 +86,7 @@ export default function Model() {
     if (device.width > 0 && device.height > 0) {
       // uniforms.current.uTexture.value = imageTexture;
 
-      // Render to base texture with meshes
+      // Render to base texture with meshes and texture
       gl.setRenderTarget(fboBase);
       gl.clear();
       meshRefs.current.forEach((mesh) => {
